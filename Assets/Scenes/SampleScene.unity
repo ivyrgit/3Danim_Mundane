@@ -162,7 +162,7 @@ MonoBehaviour:
   Lens:
     FieldOfView: 60
     OrthographicSize: 5
-    NearClipPlane: 0.3
+    NearClipPlane: 0.01
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
@@ -286,7 +286,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296878196}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!4 &296878200
 Transform:
   m_ObjectHideFlags: 0
@@ -296,7 +296,7 @@ Transform:
   m_GameObject: {fileID: 296878196}
   serializedVersion: 2
   m_LocalRotation: {x: 0.028532248, y: 0, z: 0, w: 0.99959284}
-  m_LocalPosition: {x: 1.8, y: 0.7, z: -1.98}
+  m_LocalPosition: {x: 1.458, y: 0.7, z: -1.98}
   m_LocalScale: {x: 0.18, y: 0.1, z: 0.18}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -389,8 +389,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.20999251, y: -0.3273029, z: 0.074812934, w: -0.91824776}
-  m_LocalPosition: {x: 0.11, y: 2.0027895, z: -1.7781954}
+  m_LocalRotation: {x: -0.0023185643, y: -0.70660913, z: 0.70759654, w: -0.0023218044}
+  m_LocalPosition: {x: 1.42, y: 2.51, z: -1.190947}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1055,7 +1055,7 @@ GameObject:
   - component: {fileID: 1495199349}
   - component: {fileID: 1495199348}
   m_Layer: 0
-  m_Name: Shots1_TIMELINE
+  m_Name: SCENE1_TIMELINE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
