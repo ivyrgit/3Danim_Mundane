@@ -4,14 +4,14 @@ public class IK_puppet : MonoBehaviour
 {
     Animator anim;
 
-    [Header("Default Hand Targets")]
+    [Header("default hand targets")]
     public Transform Right_handTarget;
     public Transform Left_handTarget;
 
-    [Header("Special Override Targets")]
+    [Header("special override targets")]
     public Transform SlapTarget;
 
-    [Header("IK Weights")]
+    [Header("IK weights")]
     [Range(0, 1)] public float rightWeight = 0f;
     [Range(0, 1)] public float leftWeight = 1f;
 
@@ -23,21 +23,28 @@ public class IK_puppet : MonoBehaviour
     void OnAnimatorIK(int layerIndex)
     {
         if (!anim) return;
+        // destroy association if target becomes inactive
+        if (Right_handTarget && !Right_handTarget.gameObject.activeInHierarchy)
+        {
+            Right_handTarget = null;
+        }
 
-        // -------------------------
-        // RIGHT HAND
-        // -------------------------
+        if (Left_handTarget && !Left_handTarget.gameObject.activeInHierarchy)
+        {
+            Left_handTarget = null;
+        }
 
-        // Start with the normal target
+        // right hand
+
+        // start with normal target
         Transform currentRightTarget = Right_handTarget;
 
-        // If slap target exists AND is active, override normal target
+        // override with slap target if active
         if (SlapTarget && SlapTarget.gameObject.activeInHierarchy)
         {
             currentRightTarget = SlapTarget;
         }
 
-        // Apply IK if a target exists
         if (currentRightTarget)
         {
             anim.SetIKPositionWeight(AvatarIKGoal.RightHand, rightWeight);
@@ -52,9 +59,7 @@ public class IK_puppet : MonoBehaviour
             anim.SetIKRotationWeight(AvatarIKGoal.RightHand, 0);
         }
 
-        // -------------------------
-        // LEFT HAND
-        // -------------------------
+        // left hand
 
         if (Left_handTarget)
         {
