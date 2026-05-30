@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: e9953ad1c6fd1e84b865dafbfbb24e3a
+guid: 570aa99b47a6a26428333cd3f7ac780f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper_Envelope
+    second: {fileID: 2100000, guid: 6378348ec1fa77c4a947d48fbefb9bbe, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
