@@ -2026,7 +2026,7 @@ Transform:
   m_GameObject: {fileID: 892678340}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0023185643, y: -0.70660913, z: 0.70759654, w: -0.0023218044}
-  m_LocalPosition: {x: 1.42, y: 1.7, z: -1.46}
+  m_LocalPosition: {x: 1.26, y: 1.42, z: -1.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5976,31 +5976,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1705327490943850099, guid: a3d05ab5fe7532a4e8640c6ed03d931a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.42
+      value: -0.44874036
       objectReference: {fileID: 0}
     - target: {fileID: 1705327490943850099, guid: a3d05ab5fe7532a4e8640c6ed03d931a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.51
+      value: 1.478961
       objectReference: {fileID: 0}
     - target: {fileID: 1705327490943850099, guid: a3d05ab5fe7532a4e8640c6ed03d931a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.190947
+      value: -1.0920043
       objectReference: {fileID: 0}
     - target: {fileID: 1705327490943850099, guid: a3d05ab5fe7532a4e8640c6ed03d931a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.0023218044
+      value: 0.12738903
       objectReference: {fileID: 0}
     - target: {fileID: 1705327490943850099, guid: a3d05ab5fe7532a4e8640c6ed03d931a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0023185643
+      value: 0.01997505
       objectReference: {fileID: 0}
     - target: {fileID: 1705327490943850099, guid: a3d05ab5fe7532a4e8640c6ed03d931a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.70660913
+      value: -0.9797941
       objectReference: {fileID: 0}
     - target: {fileID: 1705327490943850099, guid: a3d05ab5fe7532a4e8640c6ed03d931a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.70759654
+      value: 0.1528943
       objectReference: {fileID: 0}
     - target: {fileID: 1705327490943850099, guid: a3d05ab5fe7532a4e8640c6ed03d931a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6020,7 +6020,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6678533485799742587, guid: a3d05ab5fe7532a4e8640c6ed03d931a, type: 3}
       propertyPath: near clip plane
-      value: 0.3
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
