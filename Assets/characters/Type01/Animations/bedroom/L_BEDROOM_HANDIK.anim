@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ASC_BathroomHandIK
+  m_Name: L_BEDROOM_HANDIK
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -31,17 +31,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.31666666
-        value: -0.40602386
-        inSlope: 0.5929666
-        outSlope: 0.5929666
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.14879347
-      - serializedVersion: 3
         time: 1
-        value: 0.8
+        value: 0.2
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -51,7 +42,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: rightWeight
+    attribute: leftWeight
     path: 
     classID: 114
     script: {fileID: 11500000, guid: 8b585e2bb1ec52040abb58fc968ff1fc, type: 3}
@@ -66,7 +57,7 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 0
-      attribute: 1924343787
+      attribute: 2175132851
       script: {fileID: 11500000, guid: 8b585e2bb1ec52040abb58fc968ff1fc, type: 3}
       typeID: 114
       customType: 0
@@ -109,17 +100,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.31666666
-        value: -0.40602386
-        inSlope: 0.5929666
-        outSlope: 0.5929666
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.14879347
-      - serializedVersion: 3
         time: 1
-        value: 0.8
+        value: 0.2
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -129,7 +111,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: rightWeight
+    attribute: leftWeight
     path: 
     classID: 114
     script: {fileID: 11500000, guid: 8b585e2bb1ec52040abb58fc968ff1fc, type: 3}
